@@ -2,7 +2,7 @@
 <resources>
 
     <string name="facebook_app_id">1391519387815847</string>
-    <string name="app_name">Flies The Flag</string>
+    <string name="app_name">Flags Quiz</string>
     <string name="quiz">Quiz</string>
     <string name="choices">Select Number of Choices</string>
     <string name="correct">correct</string>
@@ -47,9 +47,9 @@ Mobmaxime is an established Web and Mobile Application Development Company deliv
     <string name="share_us">Share</string>
     <string name="exit_label">Exit</string>
     <string name="level">Level</string>
-    <string name="level_1">Level 1</string>
-    <string name="level_2">Level 2</string>
-    <string name="level_3">Level 3</string>
+    <string name="level_1">Easy</string>
+    <string name="level_2">Medium</string>
+    <string name="level_3">Difficult</string>
     <string name="facebook_text">Facebook</string>
     <string name="twitter_text">Twitter</string>
     <string name="google_text">Google+</string>

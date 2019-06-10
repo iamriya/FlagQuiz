@@ -8,7 +8,7 @@
     <color name="line_color">#e8b1b1</color>
     <color name="text_color">#000000</color>
     <color name="background_color">#FFFFCC</color>
-    <color name="correct_answer">#00CC00</color>
+    <color name="correct_answer">#000080</color>
     <color name="incorrect_answer">#FF0000</color>
     <color name="puzzle_background">#ffe6f0ff</color>
     <color name="puzzle_hilite">#ffffffff</color>

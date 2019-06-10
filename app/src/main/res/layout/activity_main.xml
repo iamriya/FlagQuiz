@@ -88,6 +88,8 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:textSize="@dimen/answer_size"
-        android:textStyle="bold"></TextView>
+        android:fontFamily="@font/amaticsc_bold"
+        android:textFontWeight="1000dp"
+        ></TextView>
 
 </LinearLayout>
