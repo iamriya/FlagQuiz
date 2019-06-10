@@ -10,12 +10,13 @@
         android:id="@+id/start_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="6dp"
         android:layout_marginTop="6dp"
-        android:background="@color/bar_color"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/round_button"
+        android:fontFamily="@font/amaticsc_bold"
         android:text="@string/quiz_game"
         android:textColor="@color/White"
-        android:textSize="18dp" />
+        android:textSize="36dp" />
 
     <Button
         android:id="@+id/level_button"
@@ -23,10 +24,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="6dp"
         android:layout_marginTop="6dp"
-        android:background="@color/bar_color"
+        android:background="@drawable/round_button"
         android:text="@string/level"
         android:textColor="@color/White"
-        android:textSize="18dp" />
+        android:textSize="36dp"
+        android:fontFamily="@font/amaticsc_bold"
+        />
 
     <Button
         android:id="@+id/about_button"
@@ -34,10 +37,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="6dp"
         android:layout_marginTop="6dp"
-        android:background="@color/bar_color"
+        android:background="@drawable/round_button"
         android:text="@string/about_us"
         android:textColor="@color/White"
-        android:textSize="18dp" />
+        android:textSize="36dp"
+        android:fontFamily="@font/amaticsc_bold" />
 
     <Button
         android:id="@+id/rate_button"
@@ -45,10 +49,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="6dp"
         android:layout_marginTop="6dp"
-        android:background="@color/bar_color"
+        android:background="@drawable/round_button"
         android:text="@string/rate_us"
         android:textColor="@color/White"
-        android:textSize="18dp" />
+        android:textSize="36dp"
+        android:fontFamily="@font/amaticsc_bold" />
 
     <Button
         android:id="@+id/share_button"
@@ -56,10 +61,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="6dp"
         android:layout_marginTop="6dp"
-        android:background="@color/bar_color"
+        android:background="@drawable/round_button"
         android:text="@string/share_us"
         android:textColor="@color/White"
-        android:textSize="18dp" />
+        android:textSize="36dp"
+        android:fontFamily="@font/amaticsc_bold" />
 
     <Button
         android:id="@+id/exit_button"
@@ -67,9 +73,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="6dp"
         android:layout_marginTop="6dp"
-        android:background="@color/bar_color"
+        android:background="@drawable/round_button"
         android:text="@string/exit_label"
         android:textColor="@color/White"
-        android:textSize="18dp" />
+        android:textSize="36dp"
+        android:fontFamily="@font/amaticsc_bold" />
 
 </LinearLayout>

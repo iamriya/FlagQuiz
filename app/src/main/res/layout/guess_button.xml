@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Button xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/newGuessButton"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:textColor="@color/White"
-    android:background="@color/bar_color"
-    android:padding="5dp"
-    android:layout_marginTop="5dp"
-    android:layout_marginBottom="5dp"
-    >
-
-</Button>
+    android:gravity="center">
+    <Button
+        android:id="@+id/newGuessButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:background="@drawable/guess_button"
+        android:layout_margin="3dp"
+        android:fontFamily="@font/amaticsc_bold"
+        android:textSize="20dp"
+        android:padding="2dp"
+        >
+    </Button>
+</RelativeLayout>

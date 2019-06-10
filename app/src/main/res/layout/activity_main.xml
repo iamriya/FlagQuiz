@@ -7,28 +7,29 @@
     android:gravity="center_horizontal"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/titleTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:gravity="center"
-        android:text="@string/quiz_title"
-        android:textColor="@color/text_color"
-        android:textSize="@dimen/title_size" >
-    </TextView>
+    <!--<TextView-->
+        <!--android:id="@+id/titleTextView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/quiz_title"-->
+        <!--android:textColor="@color/text_color"-->
+        <!--android:textSize="@dimen/title_size"-->
+        <!--android:fontFamily="@font/amaticsc_bold"-->
+        <!--android:textFontWeight="40"></TextView>-->
 
     <TextView
         android:id="@+id/questionNumberTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/amaticsc_bold"
         android:gravity="center"
         android:textColor="@color/text_color"
-        android:textSize="@dimen/text_size" >
-    </TextView>
+        android:textSize="@dimen/title_size"></TextView>
 
     <ImageView
         android:id="@+id/flagImageView"
@@ -45,36 +46,39 @@
         android:layout_marginTop="10dp"
         android:text="@string/guess_country"
         android:textColor="@color/text_color"
-        android:textSize="@dimen/text_size" >
+        android:textSize="@dimen/text_size"
+        android:fontFamily="@font/amaticsc_bold"
+        android:textFontWeight="30dp">
     </TextView>
 
     <TableLayout
         android:id="@+id/buttonTableLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="353dp"
         android:layout_weight="1"
-        android:stretchColumns="0,1,2" >
+        android:stretchColumns="0,1,2"
+        >
 
         <TableRow
             android:id="@+id/tableRow0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-        </TableRow>
+            android:orientation="horizontal"
+            ></TableRow>
 
         <TableRow
             android:id="@+id/tableRow1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-        </TableRow>
+            android:orientation="horizontal"
+            android:fontFamily="@font/amaticsc_bold"></TableRow>
 
         <TableRow
             android:id="@+id/tableRow2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-        </TableRow>
+            android:orientation="horizontal"
+            android:fontFamily="@font/amaticsc_bold"></TableRow>
     </TableLayout>
 
     <TextView
@@ -84,7 +88,6 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:textSize="@dimen/answer_size"
-        android:textStyle="bold" >
-    </TextView>
+        android:textStyle="bold"></TextView>
 
 </LinearLayout>

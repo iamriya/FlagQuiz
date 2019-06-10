@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="bar_color">#e24c4c</color>
+    <color name="bar_color">@color/DarkRed</color>
     <color name="row_text">#6d6868</color>
     <color name="background">#3500ffff</color>
     <color name="row_bg">#e1dcdc</color>

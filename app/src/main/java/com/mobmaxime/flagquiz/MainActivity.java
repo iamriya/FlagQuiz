@@ -181,19 +181,31 @@ public class MainActivity extends AppCompatActivity {
             TableRow currentTableRow = getTableRow(row);
 
             for (int column = 0; column < 3; column++) {
-                Button newGuessButton = (Button) inflater.inflate(
+                /*Button newGuessButton = (Button) inflater.inflate(
                         R.layout.guess_button, null);
                 String fileName = fileNameList.get((row * 3) + column);
                 newGuessButton.setText(getCountryName(fileName));
                 newGuessButton.setOnClickListener(guessButtonListener);
-                currentTableRow.addView(newGuessButton);
+                currentTableRow.addView(newGuessButton);*/
+                View newGuessView = (View) inflater.inflate(
+                        R.layout.guess_button, null);
+                Button newGuessButton = (Button) newGuessView.findViewById(R.id.newGuessButton);
+                String fileName = fileNameList.get((row * 3) + column);
+                newGuessButton.setText(getCountryName(fileName));
+                newGuessButton.setOnClickListener(guessButtonListener);
+                currentTableRow.addView(newGuessView);
             }
+
+
         }
         int row = random.nextInt(guessRows);
         int column = random.nextInt(3);
         TableRow randomTableRow = getTableRow(row);
         String countryName = getCountryName(correctAnswer);
-        ((Button) randomTableRow.getChildAt(column)).setText(countryName);
+
+        Button btn = randomTableRow.getChildAt(column).findViewById(R.id.newGuessButton);
+        btn.setText(countryName);
+        //((Button) randomTableRow.getChildAt(column)).setText(countryName);
     }
 
     private TableRow getTableRow(int row) {

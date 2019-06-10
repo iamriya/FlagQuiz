@@ -20,6 +20,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         //getActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         //getActionBar().setCustomView(R.layout.actionbar_home);
         setContentView(R.layout.activity_home);
+        //getActionBar().setTitle("GAME");
 
         init();
 
