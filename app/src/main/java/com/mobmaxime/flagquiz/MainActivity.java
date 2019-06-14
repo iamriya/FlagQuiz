@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 R.anim.incorrect_shake);
         // How many time you want to shake
         shakeAnimation.setRepeatCount(3);
-        // List of all regiouns
+        // List of all regions
         String[] regionNames = getResources().getStringArray(
                 R.array.regionsList);
 
